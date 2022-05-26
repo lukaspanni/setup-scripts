@@ -20,7 +20,7 @@ $programs = @(
 	"Anki.Anki",
 	"Notion.Notion",
 	"Spotify.Spotify",
-	"Canva.Canva",
+	"Canva.Canva"
 );
 
 Foreach ($prg in $programs){
