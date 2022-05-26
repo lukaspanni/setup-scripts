@@ -3,7 +3,7 @@
 /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install git # make sure git is available (should already be installed)
 
-code-select --install
+xcode-select --install
 
 casks = (iterm2 docker firefox google-chrome spotify notion anki canva visual-studio-code microsoft-office android-studio intellij-idea dotnet)
 formulae = (gh openjdk node sevenzip oh-my-posh)
